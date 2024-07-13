@@ -1,0 +1,397 @@
+#bfaa_container *{
+	text-align: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	text-decoration: none;
+	color:#B09795;
+	float: none ;
+}
+
+label{
+	cursor: pointer;
+	margin:0 !important;
+}
+
+textarea{
+    box-sizing: border-box;
+}
+
+#bfaa_container input,
+#bfaa_container select{
+	margin: 2px;
+}
+/*
+#bfaa_container select, 
+#bfaa_container input, 
+#bfaa_container textarea, 
+#bfaa_container fieldset{
+	border:1px solid #8F0A0B !important;
+}
+*/
+fieldset{
+	padding: 10px;
+	border:1px solid #B09795 !important;
+}
+#form_container{
+	padding:0px;
+	overflow: auto;
+}
+
+#bfaa_container{
+	padding: 0;
+	text-align: left;
+	display: none;
+}
+
+#BiteFight_Auto_Adventure *:focus {
+	outline: 0 !important;
+}
+
+#orderInput{
+	width:100%;
+	margin: 0;
+	height: 40px;
+	resize:vertical;
+}	
+
+.column{
+	width:50%;
+	float: left;
+	margin: 0 !important; 
+}
+
+.options{
+	width: 100%;
+	display: block;
+}
+
+.option{
+	display: block;
+	float: left !important;
+	margin-right: 15px;
+	text-align: center !important;
+}
+
+#aspectsForm .option{
+	margin-right: 25px !important;
+}
+
+#bfaa_header{
+	text-align: left !important;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+#bfaa_container input[type="checkbox"],
+#bfaa_container input[type="radio"]{
+	margin-right: 5px;
+	cursor: pointer; 
+}
+
+#items{
+	font-size: 14px;
+}
+
+#activationForm *{
+	text-align: center !important;
+}
+
+#activation_manual{
+	width: 350px;
+}
+
+#activationForm table {
+	width: 100%;
+    box-sizing: border-box;
+}
+
+.form{
+	margin: 0 auto;
+	display: none;
+	width:100%;
+	text-align: center !important;
+}
+.form p{
+	text-align: center !important;
+}
+
+.formLeft, .formRight{
+	width:45%;
+	float: left;
+	padding:2.5%;
+}
+
+#loginForm h1, #registrationForm h1{
+	text-align: center !important;
+}
+
+
+.form input[type="text"],
+.form input[type="password"]{
+	margin:5px;
+	text-align: center !important;
+}
+
+#orderDiv{
+	margin-top:40px;
+}
+
+.playerList{
+	width: 100%;
+	display: none;
+	float: left !important;
+	text-align: left !important;
+	overflow: visible;
+	margin-top: 15px !important;
+}
+
+#blacklistDecisions, #whitelistDecisions{
+	width:225px;
+	margin: 0 !important;
+	margin-bottom: 10px;
+	resize:vertical;
+}
+
+#blacklist, #whitelist{
+	width:100%;
+	margin: 0 !important;
+	margin-bottom: 10px;
+	resize:vertical;
+}
+
+#bfaa_button{
+	display: none;
+}
+
+.legend {
+	margin: 0 5px 0 2px;
+}
+
+.column {
+	width:auto;
+	float: left;
+	margin: 0 !important; 
+}
+
+.answer{
+	color: #c00c0c !important;
+  white-space: pre-wrap;
+}
+
+#about{
+	text-align:left !important;
+}
+
+.about {
+	display: block;
+	margin: 5px 0;
+	text-align:left !important;
+}
+
+#skillsForm{
+	display:none;
+}
+
+#clanForm{
+	display:none;
+}
+
+#stayAliveForm, #settingsForm, #graveyardForm {
+	margin-top: 10px;
+}
+
+#aspectsForm input[type="text"]{
+	width: 40px;
+	text-align:center;
+}
+
+#aspectsForm{
+	display: none;
+	margin-top: 40px;
+}
+
+#stayAliveForm input[type="text"],
+#selfHealingForm input[type="text"]{
+	width: 25px;
+	text-align:center;	
+}
+	
+#order{
+	width:100%;
+	margin: 0;
+	margin-bottom: 10px;
+	height: 40px;
+	resize:vertical;
+}
+	
+#log_area{
+	text-align:left !important;
+	width:100%;
+	height: 275px;
+    overflow: auto;
+	resize: vertical;
+}
+
+
+#paypal_button{
+	background: url("https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif");
+	border: none !important;
+	background-color: transparent !important;
+	cursor:pointer;
+	width: 107px;
+	height: 26px;
+}
+
+#bfaa_logo{
+	background: url("chrome-extension://__MSG_@@extension_id__/img/icon-48.png");
+    float: left;
+    margin: 3px 10px;
+	height:27px;
+	width:27px;
+	background-size: contain !important;
+}
+
+.aa_btn{
+	background-image: url("chrome-extension://__MSG_@@extension_id__/img/btn.png");
+	border: none !important;
+	width: 150px !important;
+	height: 35px;
+	background-position: top;
+	cursor: pointer;
+	color:#bec1c3 !important;
+	margin: 15px auto 0 auto !important;
+	text-align: center !important;
+}
+
+@-moz-document url-prefix() {
+    #bfaa_logo{
+		background: url("moz-extension://__MSG_@@extension_id__/img/icon-48.png") !important;
+		float: left;
+		margin: 3px 10px;
+		height:27px;
+		width:27px;
+		background-size: contain !important;
+    }
+	.aa_btn{
+		background: url("moz-extension://__MSG_@@extension_id__/img/btn.png") !important;
+	}
+}
+
+#manualOrder{
+	 width:100%; 
+	 display:none;
+}
+
+.aa_tooltip {
+    position: relative;
+    display: block;
+    border-bottom: 1px dotted black;
+}
+
+.aa_tooltip .aa_tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: #220202;
+    color: #B09795;
+    text-align: center !important;
+    
+    padding: 5px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -90px;
+    opacity: 0;
+    transition: opacity 0.3s;
+	border:1px solid #8F0A0B;
+	font-size: 12px !important;
+}
+
+.aa_tooltip .aa_tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #8F0A0B transparent transparent transparent;
+}
+
+.aa_tooltip:hover .aa_tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.center{
+	width:100%;
+}
+
+.aa_btn:hover{
+	background-position: bottom;
+	color: #fff !important;
+}
+
+/*TABS*/
+
+.tab {
+    overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tablinks {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+	background: none !important;
+	color:#b09795;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover, .tab button.active {
+    color: yellow !important;
+}
+
+.running{
+	-webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+.formLinks {
+	cursor: pointer;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: yellow; }
+    50% { color: #B09795; }
+    100% { color: yellow; }
+}
+@-moz-keyframes color-change {
+    0% { color: yellow; }
+    50% { color: #B09795; }
+    100% { color: yellow; }
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: hidden;
+	padding: 10px;
+}
+#aboutContent{
+	line-height: 20px;
+}
+
+#clanForm input[type="text"],
+#manHuntForm input[type="text"],
+#hopForm input[type="text"],
+#pvpMinHp, 
+#graveyardForm input[type="text"],
+#grottoForm input[type="text"]{
+	width: 35px;
+	padding:3px;
+	text-align: center;
+}
